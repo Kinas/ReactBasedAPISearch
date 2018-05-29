@@ -1,0 +1,44 @@
+
+.topnav {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    float: left;
+    width: 40%;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.topnav input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+.topnav img{
+    margin-top: 8px;
+    width:40px;
+}
+.topnav img:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.img-align{
+  vertical-align: middle;
+  margin-bottom: 0.75em;
+}
+.text2 {
+  vertical-align: middle;
+  font-weight:  bold;
+  font-size: 66px;
+}
